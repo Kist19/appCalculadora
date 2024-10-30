@@ -71,9 +71,9 @@ A interface do app foi criada usando **ConstraintLayout** para manter a responsi
  
 O design é minimalista e fácil de usar, com foco na simplicidade.
  
- ## 🖥️ Telas do Aplicativo
+## 🖥️ Telas do Aplicativo
 
-1. **Tela Principal**
+## 1.  Tela Principal
    
    Tela principal do app, onde é possivel ver os cadastros e pesquisar por eles.
    
@@ -83,6 +83,6 @@ O design é minimalista e fácil de usar, com foco na simplicidade.
 
 **Arthur Kist** - Desenvolvedor - [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kist19) [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arthur-kist-34b176254/) [![linkedin](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/kist_19_/)
 
- ## ✅ Licença 
+## ✅ Licença 
  
- [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Kist19/appCalculadora/blob/main/LICENSE)
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Kist19/appCalculadora/blob/main/LICENSE)
