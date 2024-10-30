@@ -1,15 +1,15 @@
-# **App Agenda**
+# **App Calculadora**
 
-> Aplicativo que cadastra e lista seus usuários.
+> Aplicativo que faz o cálculo de dois valores.
 
 ## 📱 Descrição
 
-O **App Agenda** solicita a entrada de dados e lista-os na tela principal.
+O **App Calculadora** solicita a entrada de dois valores e os calcula dependendo da operação matemática.
 
 ## 🔧 Funcionalidades
 
-- [x] Entrada de dados (Nome, CPF e Telefone)
-- [x] Pesquisa de usuários
+- [x] Entrada de dados (ValorA, ValorB)
+- [x] Operações básicas (Soma, Subtração, Multiplicação e Divisão)
 - [x] Interface simples e intuitiva
 
 ## 🚀 Tecnologias Utilizadas
@@ -17,8 +17,8 @@ O **App Agenda** solicita a entrada de dados e lista-os na tela principal.
 - [x] **Android Studio** (Koala | 2024.1.2)
 - [x] **Java** para desenvolvimento
 - [x] **ConstraintLayout** para interface responsiva
-- [x] **TextView**, **EditText**, **ListView** para entrada e exibição de dados
-- [x] **Menu** para cadastrar e pesquisar usuário
+- [x] **TextView** e **EditText** para entrada e exibição de dados
+- [x] **Button** para selecionar a operação matamática
 
 ## 🛠️ Como Rodar o Projeto
 
@@ -67,7 +67,7 @@ O design é minimalista e fácil de usar, com foco na simplicidade.
 
 ## 1.  Tela Principal
    
-   Tela principal do app, onde é possivel ver os cadastros e pesquisar por eles.
+   Entrada do **Valor A** e **Valor B** para que em seguida o calculo seja executado por um dos botões abaixo.
    
 ![Texto Alternativo](https://github.com/Kist19/appCalculadora/blob/main/calculadora_appcalculadora.jpg?raw=true)
 
