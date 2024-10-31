@@ -1,15 +1,16 @@
 # **App Calculadora**
 
-> Aplicativo que faz o cálculo de dois valores.
+> Aplicativo que faz o cálculo de **dois** valores, usando as **Operações Aritméticas Fundamentais**.
 
 ## 📱 Descrição
 
-O **App Calculadora** solicita a entrada de dois valores e os calcula dependendo da operação matemática.
+O **App Calculadora** recebe dois valores e realiza uma operação matemática por meio dos botões **Somar, Subtrair, Multiplicar ou Dividir**.
 
 ## 🔧 Funcionalidades
 
 - [x] Entrada de dados (ValorA, ValorB)
-- [x] Operações básicas (Soma, Subtração, Multiplicação e Divisão)
+- [x] Operações Aritméticas Fundamentais (Soma, Subtração, Multiplicação e Divisão)
+- [x] Apresentação de resultado
 - [x] Interface simples e intuitiva
 
 ## 🚀 Tecnologias Utilizadas
@@ -18,7 +19,7 @@ O **App Calculadora** solicita a entrada de dois valores e os calcula dependendo
 - [x] **Java** para desenvolvimento
 - [x] **ConstraintLayout** para interface responsiva
 - [x] **TextView** e **EditText** para entrada e exibição de dados
-- [x] **Button** para selecionar a operação matamática
+- [x] **Button** para realizar Operações Aritméticas Fundamentais
 
 ## 🛠️ Como Rodar o Projeto
 
@@ -40,22 +41,16 @@ Siga os passos abaixo para rodar o projeto localmente:
 ├── app
 │   ├── src
 │   │   ├── main
-│   │   │   ├──java/com/example/imccalculator
-│   │   │  
-│   ├── MainActivity.java      # Atividade principal com cálculo do IMC
-│   │   │   ├──res
-│   │   │  
-│   ├── layout
-│   │   │  
-│   │   ├── activity_main.xml  #Layout da tela principal
-│   │   │  
-│   └── values
-│   │   │  
-│       ├──strings.xml         # Strings usadas no app
-│   │   │  
-│       ├── colors.xml         # Cores definidas no projeto
-│   └── build.gradle           # Configuração do Gradle
-└── README.md                  # Este arquivo
+│   │   │   ├── java/br/ulbra/appcalculadora  
+│   │   │   │   ├── MainActivity.java         # Atividade principal com appCalculadora
+│   │   │   ├── res
+│   │   │   │   ├── layout
+│   │   │   │   │   ├── activity_main.xml     #Layout da tela principal
+│   │   │   │   └── values
+│   │   │   │       ├── colors.xml            # Strings usadas no app
+│   │   │   │       ├── strings.xml           # Cores definidas no projeto
+│   └── build.gradle                          # Configuração do Gradle
+└── README.md                                 # Este arquivo
 ```
 ## 🎨 Design e Prototipagem
  
@@ -67,7 +62,7 @@ O design é minimalista e fácil de usar, com foco na simplicidade.
 
 ## 1.  Tela Principal
    
-   Entrada do **Valor A** e **Valor B** para que em seguida o calculo seja executado por um dos botões abaixo.
+   Entrada do **Valor A** e **Valor B** que em seguida um dos botões realiza o cálculo.
    
 ![Texto Alternativo](https://github.com/Kist19/appCalculadora/blob/main/calculadora_appcalculadora.jpg?raw=true)
 
